@@ -1,20 +1,56 @@
-## 1. Project Overview:
+## Project Overview:
 
-# The AtliQ Data Story: A SQL Narrative of Finance and Supply Chain.
+This project focuses on conducting comprehensive financial and supply chain analytics on data from AtliQ Hardwares, with a particular emphasis on Croma India. The primary objective is to address a variety of analytical questions concerning sales performance, gross sales metrics, market dynamics, product insights, customer behavior, and supply chain forecasting.
 
-This project addresses the limitations of using Excel for handling large datasets and the need for enhanced strategic insights in the finance and supply chain sectors. Through a MySQL-based approach, I optimized data processing, ensuring efficient data handling, reliable data integrity, and strategic decision-making capabilities.
+## Project Structure:
 
-## Technologies:
+   **1.** SQL Queries.
 
-- **MySQL** for data storage and management.
-- **Advanced SQL Techniques**: Window functions, indexing, stored procedures, temporary tables.
+  - Contains the SQL scripts utilized for data extraction and analysis.
 
-## Data Insights:
+   **2.**  Analytical Questions Addressed.
 
-- **Top-Performing Customer**: Amazon led with $109.03M in net sales in FY 2021.
-- **Regional Market Dominance**: India and the USA were top regions by net sales.
-- **Strategic Partner Analysis**: Amazon contributed 13.23% of total net sales.
-- **APAC Market Trends**: India led in gross sales, with Amazon contributing significantly to the APAC market.
+  - The project aims to answer the following key questions:
+
+  - Product-wise Sales Report: Generate a detailed sales report for Croma India by product for the fiscal year 2021.
+
+  - Gross Monthly Sales: Calculate the gross monthly total sales report for Croma India.
+
+  - Yearly Sales Overview: Create a comprehensive yearly report for Croma India, including columns for fiscal year and total gross sales amount.
+
+  - Top Market, Product, and Customers: Identify the leading market, top-performing products, and highest-contributing customers for a given fiscal year.
+
+  - Net Sales Percentage Share: Calculate the net sales percentage share globally and by region, with a specific focus on the APAC region.
+
+  - Top Markets by Region: Retrieve the top two markets in each region based on their monthly gross sales for the fiscal year 2021.
+
+  - Supply Chain Forecasting: Perform supply chain forecasting for quantity (further details are needed for this question).
+
+## Skills Learned:
+
+Throughout this project, I have acquired the following skills:
+
+  - Crafting User-Defined Functions: Developing reusable functions to streamline data operations.
+
+  - Harnessing the Power of Database Views: Creating views to simplify complex queries and enhance data accessibility.
+
+  - Working with Stored Procedures: Implementing stored procedures to encapsulate SQL logic for improved modularity.
+
+  - Employing Window Functions: Utilizing advanced functions such as OVER, ROW_NUMBER, RANK, and DENSE_RANK for in-depth data analysis.
+
+  - Managing Temporary Tables: Efficiently using temporary tables for intermediate data storage during complex query execution.
+
+  - Understanding Indexes and Database Creation/Update: Optimizing data retrieval and managing database structures effectively.
+
+  - Ensuring Data Integrity: Maintaining data consistency through effective data management practices and entity-relationship diagrams.
+
+  - Handling Various Data Types: Working with a diverse range of data types, including numeric, string, date/time, JSON, and spatial data.
+
+  - Grasping the Significance of Primary and Foreign Keys: Understanding relational database principles to enforce data integrity.
+
+  - Managing CRUD Operations: Effectively performing Create, Read, Update, and Delete operations on the database.
+
+
 
 
 
